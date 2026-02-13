@@ -1,6 +1,6 @@
 package com.alice.locadora.model;
 
-import java.lang.module.ResolutionException;
+import com.alice.locadora.model.exeption.ReservaInvalidException;
 
 public class Reserva {
     private Cliente cliente;
